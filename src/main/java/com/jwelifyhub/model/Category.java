@@ -11,7 +11,7 @@ import lombok.Data;
 @Entity
 @Data
 public class Category {
-    
+ //for testing 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Category_id")
@@ -19,5 +19,6 @@ public class Category {
     
     @Column(name = "Category_Name")
     private String name;
-
+    
+    
 }
